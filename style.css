@@ -238,3 +238,17 @@ footer {
   color: var(--muted);
   margin-bottom: 10px;
 }
+
+.language-switch {
+  background: #ffd43b !important;
+  color: #172033 !important;
+  border: 2px solid #172033 !important;
+  font-weight: 800 !important;
+  box-shadow: 0 10px 25px rgba(20, 30, 60, 0.18);
+}
+
+.language-switch:hover {
+  background: #ffb703 !important;
+  color: #172033 !important;
+  transform: translateY(-2px);
+}
