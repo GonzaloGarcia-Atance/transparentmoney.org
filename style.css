@@ -256,21 +256,22 @@ footer {
 .nav a.spanish-flag {
   background: linear-gradient(
     to bottom,
-    #c60b1e 0%,
-    #c60b1e 24%,
-    #ffc400 24%,
-    #ffc400 76%,
-    #c60b1e 76%,
-    #c60b1e 100%
+    #e9a1a8 0%,
+    #e9a1a8 24%,
+    #ffe8a3 24%,
+    #ffe8a3 76%,
+    #e9a1a8 76%,
+    #e9a1a8 100%
   ) !important;
-  color: #111827 !important;
-  border: 2px solid #c60b1e !important;
-  font-weight: 900 !important;
+  color: #172033 !important;
+  border: 2px solid #d58b92 !important;
+  font-weight: 850 !important;
   padding: 14px 24px !important;
-  box-shadow: 0 12px 28px rgba(20, 30, 60, 0.22);
+  box-shadow: 0 10px 24px rgba(20, 30, 60, 0.12);
 }
 
 .nav a.spanish-flag:hover {
   transform: translateY(-2px);
-  box-shadow: 0 16px 34px rgba(20, 30, 60, 0.28);
+  box-shadow: 0 14px 30px rgba(20, 30, 60, 0.18);
+  filter: saturate(1.08);
 }
