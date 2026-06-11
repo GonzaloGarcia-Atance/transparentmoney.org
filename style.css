@@ -303,7 +303,6 @@ footer {
   color: var(--text);
   box-shadow: 0 12px 28px rgba(20, 30, 60, 0.06);
   transition: transform 0.18s ease, box-shadow 0.18s ease;
-  min-height: 360px;
 }
 
 .paper-card:hover {
@@ -312,8 +311,7 @@ footer {
 }
 
 .paper-card-content {
-  order: 1;
-  padding: 20px 20px 10px;
+  padding: 20px 20px 14px;
 }
 
 .paper-label {
@@ -342,38 +340,23 @@ footer {
 }
 
 .paper-card img {
-  order: 2;
   display: block;
-  width: 58%;
-  height: 170px;
+  width: calc(100% - 40px);
+  height: 180px;
   object-fit: cover;
   object-position: top left;
-  align-self: flex-end;
-  margin: auto 20px 20px 20px;
+  margin: 0 20px 20px;
   border: 1px solid var(--line);
   border-radius: 14px;
 }
 
-/* Tablet and phone: one card per row */
+/* Phone and narrow screens: one column */
 @media (max-width: 800px) {
   .paper-grid {
     grid-template-columns: 1fr;
   }
 
-  .paper-card {
-    min-height: 0;
-  }
-
   .paper-card img {
-    width: 70%;
-  }
-}
-
-/* Small phone: thumbnail full width below text */
-@media (max-width: 560px) {
-  .paper-card img {
-    width: calc(100% - 40px);
-    height: 160px;
-    align-self: center;
+    height: 170px;
   }
 }
