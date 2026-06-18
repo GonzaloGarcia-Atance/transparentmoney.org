@@ -353,7 +353,7 @@ footer {
 
 
 /* Phone and narrow screens: one column */
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .paper-grid {
     grid-template-columns: 1fr;
   }
