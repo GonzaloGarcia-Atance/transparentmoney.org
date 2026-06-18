@@ -350,24 +350,7 @@ footer {
   border-radius: 14px;
 }
 
-.graphical-abstract {
-  display: block;
-  width: min(100%, 760px);
-  height: auto;
-  margin: 22px auto 0;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  box-shadow: 0 12px 28px rgba(20, 30, 60, 0.08);
-}
 
-
-@media (max-width: 600px) {
-  .graphical-abstract {
-    width: 100%;
-    border-radius: 12px;
-    margin-top: 16px;
-  }
-}
 
 /* Phone and narrow screens: one column */
 @media (max-width: 800px) {
@@ -379,7 +362,6 @@ footer {
     height: 170px;
   }
 }
-
 
 .graphical-abstract-block {
   text-align: center;
@@ -394,7 +376,7 @@ footer {
 
 .graphical-abstract {
   display: block;
-  width: min(100%, 900px);
+  width: min(100%, 760px);
   height: auto;
   margin: 0 auto;
   border: 1px solid var(--line);
