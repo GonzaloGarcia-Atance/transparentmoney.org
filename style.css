@@ -379,3 +379,32 @@ footer {
     height: 170px;
   }
 }
+
+
+.graphical-abstract-block {
+  text-align: center;
+}
+
+.graphical-abstract-title {
+  display: block;
+  text-align: center;
+  font-size: 1.15rem;
+  margin-bottom: 16px;
+}
+
+.graphical-abstract {
+  display: block;
+  width: min(100%, 900px);
+  height: auto;
+  margin: 0 auto;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 12px 28px rgba(20, 30, 60, 0.08);
+}
+
+@media (max-width: 600px) {
+  .graphical-abstract {
+    width: 100%;
+    border-radius: 12px;
+  }
+}
