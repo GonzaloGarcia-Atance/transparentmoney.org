@@ -401,3 +401,21 @@ footer {
 .feedback-card .button-link {
   margin-top: 12px;
 }
+
+.feedback-button-wrap {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.feedback-button {
+  color: #005eea;
+  border: 1px solid #005eea;
+  background: #ffffff;
+  font-weight: 700;
+}
+
+.feedback-button:hover {
+  background: #eef5ff;
+  color: #0049b8;
+  text-decoration: underline;
+}
