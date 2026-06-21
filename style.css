@@ -404,18 +404,23 @@ footer {
 
 .feedback-button-wrap {
   text-align: center;
-  margin-top: 18px;
+  margin-top: 28px;
 }
 
 .feedback-button {
-  color: #005eea;
-  border: 1px solid #005eea;
-  background: #ffffff;
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 999px;
+  background: #005eea;
+  color: #ffffff;
   font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(0, 94, 234, 0.22);
 }
 
 .feedback-button:hover {
-  background: #eef5ff;
-  color: #0049b8;
-  text-decoration: underline;
+  background: #0049b8;
+  color: #ffffff;
+  text-decoration: none;
+  transform: translateY(-1px);
 }
