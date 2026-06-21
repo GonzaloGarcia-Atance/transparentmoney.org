@@ -388,3 +388,16 @@ footer {
     border-radius: 10px;
   }
 }
+
+
+.feedback-card {
+  text-align: left;
+}
+
+.feedback-card h2 {
+  margin-bottom: 18px;
+}
+
+.feedback-card .button-link {
+  margin-top: 12px;
+}
